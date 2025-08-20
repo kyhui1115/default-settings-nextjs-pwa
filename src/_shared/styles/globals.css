@@ -1,0 +1,29 @@
+@import "tailwindcss";
+@import "./fonts.css";
+
+@theme {
+  --color-gray-dark: #404040;
+}
+
+html {
+  color: #404040;
+}
+
+*::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+*::-webkit-scrollbar-track {
+  background-color: none;
+  border-radius: 3px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #999999;
+  border-radius: 3px;
+}
+
+*::-webkit-scrollbar-button {
+  display: none;
+}
