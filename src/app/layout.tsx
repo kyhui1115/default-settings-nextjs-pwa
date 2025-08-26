@@ -29,7 +29,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="h-dvh w-dvh bg-white antialiased">
+      <body className="h-dvh w-full bg-white antialiased">
         <QueryProvider>{children}</QueryProvider>
       </body>
     </html>
